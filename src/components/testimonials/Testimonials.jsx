@@ -63,17 +63,15 @@ const Testimonials = () => {
         <h5 style={{textAlign:'center'}}>Give Your Feedback</h5>
 
         <form onSubmit={addReviewHandler} method="post">
-          <label htmlFor="name">Enter Your Name</label>
           <div>
-            <input type="text" name="name" id="name" required />
+            <input type="text" name="name" id="name" required placeholder='Enter Your Name' />
           </div>
-          <label htmlFor="image">Insert Your Image </label>
           <div>
-            <input type="file" name="image" />
+            <input type="file" name="image" placeholder='Choose' />
           </div>
-          <label htmlFor="">Type Your Message Here</label>
+          
           <div>
-            <textarea name="message" id="" rows="10"></textarea>
+            <textarea name="message" id="" rows="10" placeholder='Type Your Feedback Here'></textarea>
           </div>
 
           <input className='btn btn-primary' type="button" value="Submit" />

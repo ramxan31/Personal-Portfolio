@@ -1,5 +1,6 @@
 {
-  "name": "portfolio-website",
+  "name": "react-portfolio-website",
+  "homepage": "https://rawebsolution.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
